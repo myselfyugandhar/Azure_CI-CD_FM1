@@ -13,5 +13,6 @@ public class dummy1 {
         Thread.sleep(5000);
         String text = driver.findElement(By.xpath("/html/body/div[2]/div/div/div/div[1]/div[1]/div[1]")).getText();
         System.out.println(text);
+        driver.quit();
     }
 }
