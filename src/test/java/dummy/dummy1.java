@@ -3,9 +3,11 @@ package dummy;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.*;
 
 public class dummy1 {
-	public static void main(String args[]) throws InterruptedException
+	@Test(priority=9,enabled=true)
+	public void dummy12() throws InterruptedException
     {
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
@@ -15,4 +17,6 @@ public class dummy1 {
         System.out.println(text);
         driver.quit();
     }
+
+
 }
