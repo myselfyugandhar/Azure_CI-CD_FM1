@@ -18,7 +18,7 @@ public class dummy1 {
         driver.quit();
     }
 		@Test(priority=10,enabled=true)
-	public void dummy12() throws InterruptedException
+	public void dummy13() throws InterruptedException
     {
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
