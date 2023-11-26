@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-26T12:44:08 IST" name="Suite" finished-at="2023-11-26T12:44:55 IST" duration-ms="46938">
+  <suite started-at="2023-11-26T13:03:08 IST" name="Suite" finished-at="2023-11-26T13:03:37 IST" duration-ms="28554">
     <groups>
     </groups>
-    <test started-at="2023-11-26T12:44:08 IST" name="Test" finished-at="2023-11-26T12:44:55 IST" duration-ms="46938">
+    <test started-at="2023-11-26T13:03:08 IST" name="Test" finished-at="2023-11-26T13:03:37 IST" duration-ms="28554">
       <class name="dummy.dummy1">
-        <test-method signature="dummy12()[pri:9, instance:dummy.dummy1@534a5a98]" started-at="2023-11-26T12:44:08 IST" name="dummy12" finished-at="2023-11-26T12:44:38 IST" duration-ms="29814" status="PASS">
+        <test-method signature="dummy12()[pri:9, instance:dummy.dummy1@130c12b7]" started-at="2023-11-26T13:03:08 IST" name="dummy12" finished-at="2023-11-26T13:03:22 IST" duration-ms="14142" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dummy12 -->
-        <test-method signature="dummy13()[pri:10, instance:dummy.dummy1@534a5a98]" started-at="2023-11-26T12:44:38 IST" name="dummy13" finished-at="2023-11-26T12:44:55 IST" duration-ms="17049" status="PASS">
+        <test-method signature="dummy13()[pri:10, instance:dummy.dummy1@130c12b7]" started-at="2023-11-26T13:03:22 IST" name="dummy13" finished-at="2023-11-26T13:03:37 IST" duration-ms="14344" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dummy13 -->
