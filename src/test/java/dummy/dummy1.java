@@ -9,7 +9,7 @@ public class dummy1 {
 	@Test(priority=9,enabled=true)
 	public void dummy12() throws InterruptedException
     {
-	    
+	     
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://www.geeksforgeeks.org/");
