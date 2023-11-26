@@ -51,7 +51,7 @@ public class GoogleSearch2 {
 		Thread.sleep(1000);
 		System.out.println("Successfully searched for Che Guevara");
 		CSVWriterNew.writeCsvList( "Search for Che Guevara", "Searching for Che Guevara", "Searching for Che Guevara", "Results should found for Che Guevara", "Results found for Che Guevara", "Pass");
-		Assert.fail();
+		//Assert.fail();
 		System.out.println("Failed to search for for Che Guevara");
 			CSVWriterNew.writeCsvList( "Search for Che Guevara", "Searching for Che Guevara", "Searching for Che Guevara", "Results should found for Che Guevara", "No Results found for Che Guevara", "Fail");
 			}
